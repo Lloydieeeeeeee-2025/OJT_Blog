@@ -7,7 +7,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div className="mb-16 text-center">
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-            12 Week Journey
+            My 12 Weeks OJT @ SCPS
           </h1>
           <p className="text-lg sm:text-xl text-gray-700 max-w-2xl mx-auto leading-relaxed">
             A commitment to document, learn, and grow through consistent weekly reflections.
@@ -47,7 +47,18 @@ export default function Home() {
             </Link>
           ))}
         </div>
+
+        {/* Footer Section */}
+        <div className="mt-16 pt-12 border-t-2 border-black">
+          <p className="text-sm text-gray-600 mb-2">
+            <span className="font-semibold">Author:</span> Lloyd De Leon
+          </p>
+          <p className="text-sm text-gray-600">
+            <span className="font-semibold">Contact:</span> <a href="mailto:lloyddeleon@thelewiscollege.edu.ph" className="text-gray-800 hover:underline">lloyddeleon@thelewiscollege.edu.ph</a>
+          </p>
+        </div>
       </div>
+
     </main>
   );
 }

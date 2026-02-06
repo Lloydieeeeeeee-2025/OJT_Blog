@@ -18,7 +18,7 @@ export default function Navigation() {
                         href="/"
                         className="text-xl font-bold text-black hover:opacity-70 transition-opacity"
                     >
-                        Weekly Blog
+                        Lloyd's Blog
                     </Link>
 
                     <div className="hidden md:flex items-center space-x-8">

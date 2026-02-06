@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import { getBlogByWeek, getAllWeeks } from '@/data/blogs';
-import BlogImages from '@/src/components/Navigation';
+import BlogImages from '@/src/components/BlogImages';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 export function generateStaticParams() {
@@ -11,8 +11,9 @@ export function generateStaticParams() {
     }));
 }
 
-export default function WeeklyBlogPage({ params }: { params: { week: string } }) {
-    const weekNumber = parseInt(params.week);
+export default async function WeeklyBlogPage({ params }: { params: { week: string } }) {
+    const { week } = await params;
+    const weekNumber = parseInt(week);
     const blog = getBlogByWeek(weekNumber);
 
     if (!blog) {
@@ -22,6 +23,7 @@ export default function WeeklyBlogPage({ params }: { params: { week: string } })
     const prevWeek = weekNumber > 1 ? weekNumber - 1 : null;
     const nextWeek = weekNumber < 12 ? weekNumber + 1 : null;
 
+    // Rest of your component remains the same
     return (
         <main className="min-h-screen bg-white">
             <article className="max-w-3xl mx-auto px-4 py-12 sm:px-6 lg:px-8">
@@ -76,6 +78,15 @@ export default function WeeklyBlogPage({ params }: { params: { week: string } })
                     ) : (
                         <div />
                     )}
+                </div>
+                {/* Footer Section */}
+                <div className="mt-16 pt-12 border-t-2 border-black">
+                    <p className="text-sm text-gray-600 mb-2">
+                        <span className="font-semibold">Author:</span> Lloyd De Leon
+                    </p>
+                    <p className="text-sm text-gray-600">
+                        <span className="font-semibold">Contact:</span> <a href="mailto:lloyddeleon@thelewiscollege.edu.ph" className="text-gray-800 hover:underline">lloyddeleon@thelewiscollege.edu.ph</a>
+                    </p>
                 </div>
             </article>
         </main>

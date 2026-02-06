@@ -6,23 +6,11 @@ import Navigation from '../components/Navigation';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Weekly Blog - 12 Week Journey',
+  title: "Lloyd's Blog",
   description: 'A 12-week journey documented through weekly blog posts',
-  openGraph: {
-    images: [
-      {
-        url: 'https://bolt.new/static/og_default.png',
-      },
-    ],
-  },
-  twitter: {
-    card: 'summary_large_image',
-    images: [
-      {
-        url: 'https://bolt.new/static/og_default.png',
-      },
-    ],
-  },
+  icons: {
+    icon: '/mine.jpg',
+  }
 };
 
 export default function RootLayout({

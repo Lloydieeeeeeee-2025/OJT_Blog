@@ -9,166 +9,156 @@ export interface BlogPost {
 export const blogs: BlogPost[] = [
     {
         week: 1,
-        title: "Getting Started with My Journey",
-        date: "January 1, 2024",
-        content: `Welcome to week one of my journey. This is where it all begins - a commitment to document, learn, and grow through consistent weekly reflections.
+        title: "My 12 Weeks OJT @ SCPS",
+        date: "2025 of August",
+        content: `My classmates and I were recently accepted for our On-the-Job Training at the Sorsogon City Police Station in Brgy. Cabid-an. The officers there have been very friendly and approachable, which has made our start so much easier. This blog will serve as a weekly diary of everything we do and learn during our OJT journey. In this place we have our own workplaces.
 
-In this first week, I've focused on establishing the foundation. Setting up routines, defining goals, and creating the space both mentally and physically to pursue this journey with intention.
-
-The path ahead is uncertain, but that's what makes it exciting. Each week will bring new challenges, discoveries, and opportunities for growth.`,
+                We were assigned to the Admin Office. Our main tasks involved encoding data and organizing documents for the personnel board. These papers show the names of officers to be called in for duty when needed, so it’s an important part of keeping the station prepared and organized.`,
         images: [
-            "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1200",
-            "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            "/first-week/a.jpg",
+            "/first-week/b.jpg",
+            "/first-week/c.jpg",
+            "/first-week/d.jpg",
         ]
     },
     {
         week: 2,
-        title: "Building Momentum",
-        date: "January 8, 2024",
-        content: `Week two brought the reality of maintaining consistency. The initial excitement has settled into a more sustainable rhythm.
+        title: "Encoding and Zoom Meetings",
+        date: "August of 2025",
+        content: `Over the following weeks, my responsibilities expanded. I was tasked with encoding names into a spreadsheet, which proved to be quite a challenge since it required manually searching for and verifying names on printed documents according to their ranks. Additionally, I occasionally helped set up the projector for their Zoom meetings.
 
-I've learned that momentum isn't about dramatic leaps forward - it's about showing up day after day, even when motivation wanes. Small, consistent actions compound over time.
-
-This week's focus has been on refining my process and learning what works best for my unique situation and goals.`,
+                Despite the difficulty of the task, I stayed focused and gave it my best effort. I want to prove through my hard work that I am worthy of the opportunity to train in their office.`,
         images: [
-            "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            "/second-week/a.jpg",
+            "/second-week/b.jpg",
+            "/second-week/g.jpg",
+            "/second-week/e.jpg",
         ]
     },
     {
         week: 3,
-        title: "Overcoming Early Challenges",
-        date: "January 15, 2024",
-        content: `The third week tested my commitment. Obstacles appeared that I hadn't anticipated, and doubts crept in about whether this journey was sustainable.
+        title: "Documentation and Inspections",
+        date: "September of 2025",
+        content: `In the following weeks, we joined Sergeant Musni on his visits to the Sorsogon Municipality and his inspections of the Imperial and Bacon District Police Stations.
 
-But challenges are where growth happens. Instead of giving up, I adjusted my approach, sought help when needed, and learned to be more flexible in my methods while staying firm on my goals.
-
-This week taught me that resilience isn't about never falling - it's about getting back up every time.`,
+            Our main role during these trips was to document the meetings by taking photos of the people he spoke with. It was a great experience to see how inspections are handled in the field.`,
         images: [
-            "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=1200",
-            "https://images.pexels.com/photos/1181317/pexels-photo-1181317.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            "/third-week/a.jpg",
+            "/third-week/b.jpg",
+            "/third-week/c.jpg",
+            "/third-week/d.jpg",
         ]
     },
     {
         week: 4,
-        title: "Finding My Rhythm",
-        date: "January 22, 2024",
-        content: `By week four, something shifted. The practices that felt forced in week one now feel natural. I've found my rhythm.
+        title: "Preparation and Painting",
+        date: "September of 2025",
+        content: `This week was a busy one at the station as the councilors from each barangay in Sorsogon City held a major meeting. To prepare for their arrival, we assisted the SCPS team in organizing the food and water to be served to our local leaders.
 
-Understanding your own patterns and working with them rather than against them is powerful. I've learned when I'm most productive, when I need rest, and how to structure my days for maximum effectiveness.
-
-This week marks a turning point from struggling to establish habits to flowing with them.`,
+            Aside from event prep, we also got a bit more 'hands-on' by helping paint the storage box for the station's earthquake emergency equipment. It will be displayed right in front of the station so it’s easy to access during an emergency and looks presentable for visitors. It feels good to help with something that contributes to both the station’s appearance and its safety readiness.`,
         images: [
-            "https://images.pexels.com/photos/1181345/pexels-photo-1181345.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            "/fourth-week/a.jpg",
+            "/fourth-week/j.jpg",
+            "/fourth-week/c.jpg",
+            "/fourth-week/h.jpg",
         ]
     },
     {
         week: 5,
-        title: "Midpoint Reflection",
-        date: "January 29, 2024",
-        content: `Reaching the midpoint of this twelve-week journey feels significant. It's a natural pause to reflect on progress and recalibrate.
-
-Looking back, I can see how far I've come. The person who started this journey five weeks ago would be amazed at what has become routine now.
-
-Moving forward, I'm setting new challenges while maintaining the foundation I've built.`,
+        title: "The Setup",
+        date: "September of 2025",
+        content: `In our sixth week, the station became even busier with frequent Zoom meetings and various visitors arriving at the conference room. Despite the rainy weather, we remained committed to our schedule and continued to report for duty. We are determined to stay on track and complete our OJT hours on time, rain or shine.`,
         images: [
-            "https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=1200",
-            "https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            "/fifth-week/a.jpg",
+            "/fifth-week/c.jpg",
+            "/fifth-week/b.jpg",
+            "/fifth-week/d.jpg",
         ]
     },
     {
         week: 6,
-        title: "Pushing Boundaries",
-        date: "February 5, 2024",
-        content: `Week six was about stepping outside my comfort zone. Growth doesn't happen in familiar territory.
-
-I took on challenges that seemed just beyond my current capability. Some I conquered, others humbled me. Both outcomes provided valuable lessons.
-
-The key insight: discomfort is a sign you're expanding, not a signal to retreat.`,
+        title: "Stenciling and Patience",
+        date: "October of 2025",
+        content: `This week, I gained some hands-on experience with a task called stenciling. We were tasked with capturing the unique identification numbers of a damaged motorcycle for repair documentation. It’s a lot harder than it looks! The space inside the engine is so tight that I could barely fit a finger in to locate the ID. It was a test of patience and precision, but it’s a vital part of keeping accurate vehicle records.`,
         images: [
-            "https://images.pexels.com/photos/1181398/pexels-photo-1181398.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            "/sixth-week/a.jpg",
+            "/sixth-week/b.jpg",
+            "/sixth-week/c.jpg",
+            "/sixth-week/d.jpg",
         ]
     },
     {
         week: 7,
-        title: "Community and Connection",
-        date: "February 12, 2024",
-        content: `This week highlighted the importance of community. While personal discipline is crucial, we don't grow in isolation.
-
-Connecting with others on similar journeys provides perspective, accountability, and inspiration. I've learned as much from others' experiences as from my own.
-
-Support systems aren't a luxury - they're essential for sustained growth.`,
+        title: "Preparation for Kasanggayhan Festival",
+        date: "October of 2025",
+        content: `This week, the Salaam Police convened to discuss preparations for the upcoming Kasanggayahan Festival in Sorsogon City. The meeting was led by Chief of Police Aduviso, who emphasized the importance of unity between the SCPS and the Salaam Police units. Their goal is to ensure a coordinated effort in maintaining the safety and security of everyone visiting and participating in the festival festivities`,
         images: [
-            "https://images.pexels.com/photos/1181434/pexels-photo-1181434.jpeg?auto=compress&cs=tinysrgb&w=1200",
-            "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            "/seventh-week/a.jpg",
+            "/seventh-week/b.jpg",
+            "/seventh-week/c.jpg",
+            "/seventh-week/d.jpg",
         ]
     },
     {
         week: 8,
-        title: "Refining the Process",
-        date: "February 19, 2024",
-        content: `Eight weeks in, and I'm making significant refinements to my approach. Experience has shown what works and what doesn't.
-
-Optimization isn't about perfection - it's about continuous improvement. Small adjustments to my systems have created outsized results.
-
-This week's focus: eliminate what's not working and double down on what is.`,
+        title: "The Recruitment Process",
+        date: "October of 2025",
+        content: `In my eighth week, I was tasked by Admin Marife Hagos to assist in the recruitment process. With nearly 200 applicants vying for only two available positions (starting as Patrolman/Patrolwoman), the screening process is incredibly strict.
+        
+        I took on an HR-like role, thoroughly checking each applicant's requirements. It was a bit difficult for me to turn people away if their documents were incomplete, but I understood the importance of following instructions and maintaining high standards. This experience is teaching me that being professional sometimes means making tough calls to ensure the integrity of the process.`,
         images: [
-            "https://images.pexels.com/photos/1181622/pexels-photo-1181622.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            "/eighth-week/a.jpg",
+            "/eighth-week/b.jpg",
+            "/eighth-week/c.jpg",
+            "/eighth-week/d.jpg",
         ]
     },
     {
         week: 9,
-        title: "Unexpected Discoveries",
-        date: "February 26, 2024",
-        content: `Week nine brought surprises. Skills I was developing for one purpose turned out to be valuable in unexpected ways.
-
-This experience reinforced the value of staying open to possibility. Not everything needs to go according to plan to be worthwhile.
-
-Sometimes the detours teach us more than the planned route ever could.`,
+        title: "More Applicants",
+        date: "November of 2025",
+        content: `The recruitment process became even more intensive this week. Police Captain David called in the applicants for official height and weight verification to ensure the data on their Personal Data Sheets (PDS) was accurate. The station has implemented very strict standards—applicants who do not meet the specific weight requirements are no longer accepted.`,
         images: [
-            "https://images.pexels.com/photos/1181304/pexels-photo-1181304.jpeg?auto=compress&cs=tinysrgb&w=1200",
-            "https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            "/ninth-week/a.jpg",
+            "/ninth-week/b.jpg",
+            "/ninth-week/c.jpg",
+            "/ninth-week/d.jpg",
         ]
     },
     {
         week: 10,
-        title: "The Power of Consistency",
-        date: "March 4, 2024",
-        content: `Ten weeks of showing up. That's the real achievement. Not any single accomplishment, but the pattern of consistency itself.
-
-This week made clear that results are almost inevitable when you maintain consistent action over time. The compound effect is real.
-
-Trust the process, especially when immediate results aren't visible.`,
+        title: "Final Screening",
+        date: "November of 2025",
+        content: `This week, I witnessed the final screening for the police applicants. The panel was composed of Chief of Police Aduviso and City Mayor Hamor, ensuring that the recruitment process was both rigorous and transparent. It was a great experience to see these leaders work together to choose the next generation of patrol officers for our community.`,
         images: [
-            "https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            "/tenth-week/c.jpg",
+            "/tenth-week/b.jpg",
+            "/tenth-week/d.jpg",
+            "/tenth-week/a.jpg",
         ]
     },
     {
         week: 11,
-        title: "Looking Ahead",
-        date: "March 11, 2024",
-        content: `With just one week remaining, I'm already thinking about what comes next. This journey doesn't end at week twelve - it's just the beginning.
-
-The habits formed, lessons learned, and growth achieved create a foundation for the next chapter. The question isn't whether to continue, but how to evolve.
-
-Week eleven is about integration - making everything I've learned a permanent part of who I am.`,
+        title: "Score Card",
+        date: "November of 2025",
+        content: `One of my key responsibilities this week involved the digitization of personnel records. The officers maintain a 'Scorecard' to document their weekly operational duties and accomplishments. To improve efficiency, I was tasked with transitioning these records from hard copies to a digital format. This initiative ensures that performance data is more organized, searchable, and securely backed up for the station’s administration.`,
         images: [
-            "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=1200",
-            "https://images.pexels.com/photos/1181607/pexels-photo-1181607.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            "/eleventh-week/a.jpg",
+            "/eleventh-week/b.jpg",
+            "/eleventh-week/c.jpg",
+            "/eleventh-week/d.jpg",
         ]
     },
     {
         week: 12,
-        title: "The Journey Continues",
-        date: "March 18, 2024",
-        content: `Week twelve. The final entry in this series, but not the end of the journey.
-
-Reflecting on twelve weeks of consistent effort, growth, and learning fills me with gratitude. The person I am today is fundamentally different from who I was twelve weeks ago.
-
-But this isn't a conclusion - it's a milestone. The practices, mindsets, and habits developed here will carry forward into whatever comes next.
-
-Thank you for following along. The journey continues.`,
+        title: "The Last Week",
+        date: "December of 2025",
+        content: `We spent our last week at the Sorsogon City Police Station finalizing the performance scorecards. The task was made more challenging by technical issues with the office equipment, specifically a recurring printer jam that required frequent troubleshooting. Dealing with these equipment issues taught me the importance of patience and technical adaptability in an administrative environment, ensuring that we still met our deadlines regardless of the obstacles.`,
         images: [
-            "https://images.pexels.com/photos/1181292/pexels-photo-1181292.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            "/twelfth-week/a.jpg",
+            "/twelfth-week/b.jpg",
+            "/twelfth-week/c.jpg",
+            "/twelfth-week/d.jpg",
         ]
     }
 ];
